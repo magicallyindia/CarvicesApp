@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/Home">
+
+    <fragment
+        android:id="@+id/Home"
+        android:name="com.vickikbt.carvices.UI.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_Home_to_Profile"
+            app:destination="@id/Profile" />
+        <action
+            android:id="@+id/action_Home_to_Settings"
+            app:destination="@id/Settings" />
+    </fragment>
+    <fragment
+        android:id="@+id/Profile"
+        android:name="com.vickikbt.carvices.UI.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/Settings"
+        android:name="com.vickikbt.carvices.UI.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+</navigation>

@@ -19,8 +19,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-
-        <activity android:name=".SplashScreenActivity"
+        <activity android:name=".UI.MainActivity"></activity>
+        <activity
+            android:name=".UI.SplashScreenActivity"
             android:theme="@style/FullScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,10 +29,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".Registerctivity" />
-
-        <activity android:name=".LoginActivity"/>
+        <activity android:name=".UI.Registerctivity" />
+        <activity android:name=".UI.LoginActivity" />
     </application>
 
 </manifest>

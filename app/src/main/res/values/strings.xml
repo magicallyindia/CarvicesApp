@@ -5,4 +5,7 @@
     <string name="login">Login</string>
     <string name="mechanic_services">Mechanic Services</string>
     <string name="towing_services">Towing Services</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
