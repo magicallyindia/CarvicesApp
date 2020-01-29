@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Carvices</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="mechanic_services">Mechanic Services</string>
+    <string name="towing_services">Towing Services</string>
+</resources>
