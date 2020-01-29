@@ -12,6 +12,6 @@ class LoginActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding=DataBindingUtil.setContentView(R.layout.activity_login,)
+        binding=DataBindingUtil.setContentView(this,R.layout.activity_login)
     }
 }
