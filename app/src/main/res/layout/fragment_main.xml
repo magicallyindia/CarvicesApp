@@ -1,14 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".UI.MainFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        tools:context=".UI.MainFragment">
 
-</FrameLayout>
+        <com.luseen.spacenavigation.SpaceNavigationView
+            android:id="@+id/spaceBottomNavigation"
+            app:centre_button_color="@color/colorPrimary"
+            app:centre_button_icon="@drawable/ic_location"
+            app:inactive_centre_button_icon_color="@color/White"
+            app:inactive_item_color="@color/White"
+            app:space_background_color="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center_horizontal" />
+
+    </RelativeLayout>
+
+</layout>

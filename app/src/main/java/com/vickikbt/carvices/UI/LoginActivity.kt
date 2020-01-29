@@ -1,5 +1,6 @@
 package com.vickikbt.carvices.UI
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.databinding.DataBindingUtil
@@ -13,5 +14,9 @@ class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding=DataBindingUtil.setContentView(this,R.layout.activity_login)
+
+        binding.buttonLogin.setOnClickListener(){
+            startActivity(Intent(this, MainActivity::class.java))
+        }
     }
 }
