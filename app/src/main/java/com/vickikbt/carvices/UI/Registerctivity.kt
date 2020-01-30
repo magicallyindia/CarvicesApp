@@ -8,6 +8,6 @@ class Registerctivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_registerctivity)
+        setContentView(R.layout.activity_registeractivity)
     }
 }
