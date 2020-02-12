@@ -214,7 +214,7 @@
                             android:textColorHint="#FFA082" />
 
                     </LinearLayout>
-                    
+
 
                     <Button
                         android:id="@+id/button_login"
