@@ -47,18 +47,25 @@
                 android:layout_marginTop="50dp">
 
 
-                <de.hdodenhof.circleimageview.CircleImageView
-                    android:id="@+id/imageView_register"
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
+                <Button
+                    android:id="@+id/button_selectPhoto"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
                     android:layout_centerHorizontal="true"
-                    android:layout_gravity="center"
-                    android:elevation="8dp"
-                    android:background="@color/White"
-                    android:scaleType="centerCrop"
-                    android:src="@drawable/ic_add_photo"
+                    android:layout_marginTop="24dp"
+                    android:background="@drawable/rounded_selectphoto"
+                    android:text="Select Photo"
+                    android:textColor="@color/White" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/selectPhoto_ImageView"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="24dp"
                     app:civ_border_color="@color/Black"
-                    app:civ_border_width="1dp" />
+                    app:civ_border_width="1dp"
+                    android:elevation="10dp" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -207,36 +214,7 @@
                             android:textColorHint="#FFA082" />
 
                     </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="10dp"
-                        android:background="@drawable/login_linearlayout"
-                        android:orientation="horizontal">
-
-                        <ImageView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_margin="10dp"
-                            app:srcCompat="@drawable/ic_lock" />
-
-                        <View
-                            android:layout_width="1dp"
-                            android:layout_height="match_parent"
-                            android:background="@color/Grey" />
-
-                        <EditText
-                            android:id="@+id/editText_confirmpasswordRegister"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_margin="10dp"
-                            android:background="@drawable/login_edittext"
-                            android:hint="@string/confirm_password"
-                            android:inputType="textPassword"
-                            android:textColorHint="#FFA082" />
-
-                    </LinearLayout>
+                    
 
                     <Button
                         android:id="@+id/button_login"
