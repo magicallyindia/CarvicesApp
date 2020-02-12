@@ -45,7 +45,11 @@ class Registeractivity : AppCompatActivity() {
             username.isEmpty() -> Toast.makeText(this, "Enter Username!", Toast.LENGTH_SHORT).show()
             email.isEmpty() -> Toast.makeText(this, "Enter Email!", Toast.LENGTH_SHORT).show()
             password.isEmpty() -> Toast.makeText(this, "Enter Password!", Toast.LENGTH_SHORT).show()
-            password.length < 8 -> Toast.makeText(this, "Password is too short!", Toast.LENGTH_SHORT).show()
+            password.length < 8 -> Toast.makeText(
+                this,
+                "Password is too short!",
+                Toast.LENGTH_SHORT
+            ).show()
         }
 
         if (username.isEmpty() || email.isEmpty() || password.isEmpty()) {
