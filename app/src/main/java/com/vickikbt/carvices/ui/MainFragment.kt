@@ -13,8 +13,8 @@ import androidx.lifecycle.ViewModelProvider
 import com.luseen.spacenavigation.SpaceItem
 import com.luseen.spacenavigation.SpaceOnClickListener
 import com.vickikbt.carvices.R
-import com.vickikbt.carvices.viewmodels.MainFragmentViewModel
 import com.vickikbt.carvices.databinding.FragmentMainBinding
+import com.vickikbt.carvices.viewmodels.MainFragmentViewModel
 
 
 class MainFragment : Fragment() {
