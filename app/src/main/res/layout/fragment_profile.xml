@@ -217,7 +217,7 @@
                             </RelativeLayout>
 
                             <RelativeLayout
-                                android:id="@+id/relativeLayout_account"
+                                android:id="@+id/relativeLayout_logout"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_margin="8dp"
