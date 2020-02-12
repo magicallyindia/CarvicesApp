@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    tools:context=".ui.MainFragment">
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:context=".ui.MainFragment">
+        android:layout_height="match_parent">
 
         <com.luseen.spacenavigation.SpaceNavigationView
             android:id="@+id/spaceBottomNavigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center_horizontal"
             app:centre_button_color="@color/colorPrimary"
             app:centre_button_icon="@drawable/ic_location"
             app:inactive_centre_button_icon_color="@color/White"
             app:inactive_item_color="@color/White"
-            app:space_background_color="@color/colorPrimary"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:gravity="center_horizontal" />
+            app:space_background_color="@color/colorPrimary" />
 
     </RelativeLayout>
 
