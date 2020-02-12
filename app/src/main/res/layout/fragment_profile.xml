@@ -54,7 +54,6 @@
                     android:layout_gravity="center"
                     android:elevation="1dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/vicki"
                     app:civ_border_color="@color/Black"
                     app:civ_border_width="1dp" />
 
@@ -105,7 +104,7 @@
                         android:gravity="center"
                         android:paddingLeft="10dp"
                         android:paddingRight="10dp"
-                        android:text="Phone Number"
+                        android:text="@string/phone_number"
                         android:textSize="15sp"
                         android:textStyle="italic" />
 
@@ -153,7 +152,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_alignParentRight="true"
-                                    android:src="@drawable/ic_navigate_next" />
+                                    app:srcCompat="@drawable/ic_navigate_next" />
 
                             </RelativeLayout>
 
@@ -243,7 +242,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_alignParentRight="true"
-                                    android:src="@drawable/ic_navigate_next" />
+                                    app:srcCompat="@drawable/ic_navigate_next" />
 
                             </RelativeLayout>
 
