@@ -1,4 +1,4 @@
-package com.vickikbt.carvices.UI
+package com.vickikbt.carvices.ui
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity

@@ -7,7 +7,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".UI.MainFragment">
+        tools:context=".ui.MainFragment">
 
         <com.luseen.spacenavigation.SpaceNavigationView
             android:id="@+id/spaceBottomNavigation"

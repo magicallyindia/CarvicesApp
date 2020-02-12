@@ -1,4 +1,4 @@
-package com.vickikbt.carvices.ViewModels
+package com.vickikbt.carvices.viewmodels
 
 import androidx.lifecycle.ViewModel
 

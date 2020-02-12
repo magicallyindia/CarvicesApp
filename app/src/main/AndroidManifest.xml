@@ -22,9 +22,9 @@
         <activity
             android:name=".BottomNavActivity"
             android:label="@string/title_activity_bottom_nav"></activity>
-        <activity android:name=".UI.MainActivity" />
+        <activity android:name=".ui.MainActivity" />
         <activity
-            android:name=".UI.SplashScreenActivity"
+            android:name=".ui.SplashScreenActivity"
             android:theme="@style/FullScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -32,8 +32,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".UI.Registeractivity" />
-        <activity android:name=".UI.LoginActivity" />
+        <activity android:name=".ui.Registeractivity" />
+        <activity android:name=".ui.LoginActivity" />
     </application>
 
 </manifest>

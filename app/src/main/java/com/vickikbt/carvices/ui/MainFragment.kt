@@ -1,4 +1,4 @@
-package com.vickikbt.carvices.UI
+package com.vickikbt.carvices.ui
 
 
 import android.os.Bundle
@@ -10,11 +10,10 @@ import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import androidx.navigation.Navigation
 import com.luseen.spacenavigation.SpaceItem
 import com.luseen.spacenavigation.SpaceOnClickListener
 import com.vickikbt.carvices.R
-import com.vickikbt.carvices.ViewModels.MainFragmentViewModel
+import com.vickikbt.carvices.viewmodels.MainFragmentViewModel
 import com.vickikbt.carvices.databinding.FragmentMainBinding
 
 

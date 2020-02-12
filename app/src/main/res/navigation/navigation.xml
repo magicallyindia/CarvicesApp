@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/Home"
-        android:name="com.vickikbt.carvices.UI.MainFragment"
+        android:name="com.vickikbt.carvices.ui.MainFragment"
         android:label="fragment_main"
         tools:layout="@layout/fragment_main" >
         <action
@@ -19,12 +19,12 @@
     </fragment>
     <fragment
         android:id="@+id/Profile"
-        android:name="com.vickikbt.carvices.UI.ProfileFragment"
+        android:name="com.vickikbt.carvices.ui.ProfileFragment"
         android:label="fragment_profile"
         tools:layout="@layout/fragment_profile" />
     <fragment
         android:id="@+id/Settings"
-        android:name="com.vickikbt.carvices.UI.SettingsFragment"
+        android:name="com.vickikbt.carvices.ui.SettingsFragment"
         android:label="fragment_settings"
         tools:layout="@layout/fragment_settings" />
 </navigation>
