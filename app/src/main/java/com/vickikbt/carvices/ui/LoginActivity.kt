@@ -22,8 +22,8 @@ class LoginActivity : AppCompatActivity() {
             startActivity(Intent(this, MainActivity::class.java))
         }
 
-        binding.buttonLogin.setOnClickListener {
-            loginUser()
+        binding.linearLayoutRegister.setOnClickListener {
+           startActivity(Intent(this, Registeractivity::class.java))
         }
     }
 

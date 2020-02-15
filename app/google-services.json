@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "144396386798",
+    "firebase_url": "https://carvices-ceb64.firebaseio.com",
+    "project_id": "carvices-ceb64",
+    "storage_bucket": "carvices-ceb64.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:144396386798:android:af5a9e33025f7d60b3ceff",
+        "android_client_info": {
+          "package_name": "com.vickikbt.carvices"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "144396386798-flvflkv7r47rga2782a6gdrj1bt6kofe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vickikbt.carvices",
+            "certificate_hash": "f24fa4a347a491e41be3251cfe7572929badb7ec"
+          }
+        },
+        {
+          "client_id": "144396386798-cektaou3jkls2a9brbs67m9rkucnq5ta.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQrJVZ1TEeeWLHBxoh2ECbWAQS7OIzvHw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "144396386798-cektaou3jkls2a9brbs67m9rkucnq5ta.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
